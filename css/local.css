@@ -1,0 +1,85 @@
+body {
+  font-family: 'Droid Sans', sans-serif;
+}
+
+body, .footer, .header, input, .main, textarea {
+  background-color: #363b3f;
+}
+
+.article header h2 a, body, header a, input, li a.active, .static.menu.active a, .static.menu.noactive a, textarea {
+  color: #fff;
+}
+
+a:hover, .article header h2 a:hover, static.menu.noactive a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.article header small, .article footer small, footer, footer a {
+  color: #9DA4AB;
+}
+
+.page.mode-article .article footer {
+  border: none;
+}
+
+.header {
+  padding: 3rem 0 3rem 0;
+  font-family: 'Anton', sans-serif;
+}
+
+.heading-small {
+  font-size: 8rem;
+}
+
+.nav {
+  background-color: #2d3035;
+  margin-top: 0;
+  padding: 1rem 0 1rem 0;
+}
+
+.nav ul {
+    line-height: 2rem;
+}
+
+.static.menu.active a, .static.menu.noactive a {
+  text-transform: uppercase;
+}
+
+.capcha-word, input.blue[type="submit"], .nbcom, .pagination a {
+  border-radius: 0;
+  text-transform: uppercase;
+  background-color: #1ABC9C;
+}
+
+a {
+  color: #1ABC9C;
+}
+
+.capcha-word:hover, .pagination a:hover, input.blue[type="submit"]:hover, .nbcom:hover {
+  background-color: #9da4ab;
+}
+
+input, textarea {
+  border: none;
+  background-color: #464D53;
+  border-radius: 0;
+}
+
+.article footer {
+  margin: 1rem 0;
+}
+
+figure {
+  margin: 1rem auto 1rem auto;
+}
+
+figure img {
+  display: block;
+  margin: 0 auto;
+}
+
+figcaption {
+  margin: 3px 0;
+  font-style: italic;
+}
