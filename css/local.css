@@ -48,7 +48,6 @@ a:hover, .article header h2 a:hover, static.menu.noactive a:hover {
 
 .capcha-word, input.blue[type="submit"], .nbcom, .pagination a {
   border-radius: 0;
-  text-transform: uppercase;
   background-color: #1ABC9C;
 }
 
