@@ -12,11 +12,15 @@
 	<link rel="stylesheet" href="<?php $plxShow->template(); ?>/css/plucss.css" media="screen"/>
 	<link rel="stylesheet" href="<?php $plxShow->template(); ?>/css/theme.css" media="screen"/>
 	<link rel="stylesheet" href="<?php $plxShow->template(); ?>/css/local.css" media="screen"/>
-	<link href="https://fonts.googleapis.com/css?family=Anton|Droid+Sans" rel="stylesheet"> 
 	<?php $plxShow->templateCss() ?>
 	<?php $plxShow->pluginsCss() ?>
 	<link rel="alternate" type="application/rss+xml" title="<?php $plxShow->lang('ARTICLES_RSS_FEEDS') ?>" href="<?php $plxShow->urlRewrite('feed.php?rss') ?>" />
 	<link rel="alternate" type="application/rss+xml" title="<?php $plxShow->lang('COMMENTS_RSS_FEEDS') ?>" href="<?php $plxShow->urlRewrite('feed.php?rss/commentaires') ?>" />
+
+ 	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Anton|Droid+Sans|Inconsolata" rel="stylesheet">
+	<!-- /google fonts -->
+
 </head>
 
 <body id="top" class="page mode-<?php $plxShow->mode(true) ?>">

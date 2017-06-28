@@ -82,3 +82,7 @@ figcaption {
   margin: 3px 0;
   font-style: italic;
 }
+
+code {
+  font-family: 'Inconsolata', monospace;
+}
