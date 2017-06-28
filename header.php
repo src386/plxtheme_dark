@@ -18,7 +18,7 @@
 	<link rel="alternate" type="application/rss+xml" title="<?php $plxShow->lang('COMMENTS_RSS_FEEDS') ?>" href="<?php $plxShow->urlRewrite('feed.php?rss/commentaires') ?>" />
 
  	<!-- google fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Anton|Droid+Sans|Inconsolata" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Anton|Droid+Sans" rel="stylesheet">
 	<!-- /google fonts -->
 
 </head>
